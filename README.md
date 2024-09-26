@@ -1,6 +1,6 @@
 # League-of-Legends-API-project
-League API
-based around a champion search
+League API,
+based around a champion search,
 working on an API that could bring up artwork, alernate skins, gifs, sounds(voices) of different champions
 possibly things similar sites like OP.gg win rate/ pick rate/ ban rate
 could get more details, champion synergy, best lane to use, build types, off builds
