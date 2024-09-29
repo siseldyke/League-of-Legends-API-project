@@ -1,5 +1,5 @@
 //variables
-apiKey = (`RGAPI-fee3b467-805d-466b-b56f-8d627ab37e87`)
+
 
 const button = document.querySelector('#submitButton')
 const input = document.querySelector('#textInput')
@@ -22,5 +22,11 @@ button.addEventListener('click', async () => {
 
     let champName = response.data.data[name].id
     nameContainer.textContent = (champName)
+    
+    let champTitle = response.data.data[name].title
+    titleContainer.textContent=(champTitle)
+
+    let champImage = response.data.data[name].image.full
+    imageContainer.setAttribute('src', champImage)
 })
 
